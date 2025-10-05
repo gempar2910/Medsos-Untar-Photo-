@@ -28,8 +28,6 @@ class TarumanagaraSocialApp extends StatelessWidget {
         '/login': (context) => const LoginPage(),
         '/home': (context) => const HomePage(),
         '/search': (context) => const SearchPage(),
-        '/profile': (context) => ProfilePage(posts: dummyPosts), // ✅ kasih posts
-      },
-    );
+        '/profile': (context) => ProfilePage(posts: dummyPosts), // ✅ kasih p
   }
 }
