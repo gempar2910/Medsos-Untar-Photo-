@@ -66,17 +66,4 @@ class _PostPageState extends State<PostPage> {
               controller: _captionController,
               decoration: const InputDecoration(
                 hintText: "Write a caption...",
-                border: OutlineInputBorder(),
-              ),
-            ),
-            const SizedBox(height: 12),
-            ElevatedButton(
-              onPressed: _submitPost,
-              child: const Text("Post"),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
+                border: OutlineI
